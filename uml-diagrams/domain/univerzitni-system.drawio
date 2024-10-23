@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="53iRr432oOkNdnW94gbv">
+    <mxGraphModel dx="1434" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XHznnMzQOutidrIjD-D7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="XHznnMzQOutidrIjD-D7-1" target="XHznnMzQOutidrIjD-D7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHznnMzQOutidrIjD-D7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHznnMzQOutidrIjD-D7-1" target="XHznnMzQOutidrIjD-D7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHznnMzQOutidrIjD-D7-8" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XHznnMzQOutidrIjD-D7-7">
+          <mxGeometry x="-0.9368" y="4" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHznnMzQOutidrIjD-D7-9" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XHznnMzQOutidrIjD-D7-7">
+          <mxGeometry x="0.8947" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHznnMzQOutidrIjD-D7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHznnMzQOutidrIjD-D7-1" target="XHznnMzQOutidrIjD-D7-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="430" />
+              <mxPoint x="385" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHznnMzQOutidrIjD-D7-1" value="Student&lt;div&gt;+ID&lt;/div&gt;&lt;div&gt;+jméno&lt;/div&gt;&lt;div&gt;+rok studia&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XHznnMzQOutidrIjD-D7-2" value="Vyučující&lt;div&gt;+ID&lt;/div&gt;&lt;div&gt;+jméno&lt;/div&gt;&lt;div&gt;+titul&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="70" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XHznnMzQOutidrIjD-D7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;" edge="1" parent="1" source="XHznnMzQOutidrIjD-D7-3" target="XHznnMzQOutidrIjD-D7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHznnMzQOutidrIjD-D7-3" value="Kurz&lt;div&gt;+ID&lt;/div&gt;&lt;div&gt;+název&lt;/div&gt;&lt;div&gt;+kreditní hodnota&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XHznnMzQOutidrIjD-D7-4" value="Studijní program&lt;div&gt;+ID&lt;/div&gt;&lt;div&gt;+název&lt;/div&gt;&lt;div&gt;+typ&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XHznnMzQOutidrIjD-D7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHznnMzQOutidrIjD-D7-5" target="XHznnMzQOutidrIjD-D7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHznnMzQOutidrIjD-D7-5" value="Závěrečná práce&lt;div&gt;+ID&lt;/div&gt;&lt;div&gt;+název&lt;/div&gt;&lt;div&gt;+typ&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="130" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
